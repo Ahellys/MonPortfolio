@@ -8,7 +8,7 @@ import {Route, Routes} from "react-router-dom";
 import {Box, Grid} from "@mui/material";
 
 export default function BaseLayout() {
-   let [darkMode, setDarkMode] = useState(false);
+   let [darkMode, setDarkMode] = useState();
 
    function handleToggleDarkMode() {
       let oppositeOfCurrentDarkMode = !darkMode
@@ -19,7 +19,7 @@ export default function BaseLayout() {
 
    useEffect(() => {
       let detectedDarkMode = eval(localStorage.getItem('darkMode'));
-
+      console.log(detectedDarkMode);
       if (detectedDarkMode) {
          setDarkMode(detectedDarkMode)
       } else {
@@ -44,7 +44,7 @@ export default function BaseLayout() {
             <Grid item>
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
                     py={'1.5rem'} sx={{opacity: 0.7}} width={'100%'}>
-                  <p>template created with &hearts; by <a href={'https://paytonpierce.dev'}>Payton Pierce</a></p>
+                  <p>Yoann Silmon</p>
                   <p>&copy; 2023</p>
                </Box>
             </Grid>
