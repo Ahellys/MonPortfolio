@@ -1,7 +1,7 @@
 import self from "../img/self.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock5 from "../img/mock5.png"
+import booki from "../img/booki_projet.png"
+import kasa from "../img/kasa_projet.png"
+import java from "../img/java_projets.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -65,8 +65,8 @@ export const info = {
     skills:
         {
             proficientWith: ['javascript','nodejs', 'react', 'git', 'github', 'html5', 'css3'],
-            exposedTo: [ 'java', 'JEE', 'AGIL'],
-            learning: ['test unitaires','figma', 'bootstrap', 'JEE', 'python', 'svelte', 'SQL', '...']
+            exposedTo: ['python', 'svelte' , 'AGIL', '...'],
+            learning: ['test unitaires','figma', 'bootstrap', 'Angular', 'Typescript', 'java', 'JEE', 'SQL']
         }
     ,
     hobbies: [
@@ -94,22 +94,22 @@ export const info = {
             title: "Openclassrooms - Booki",
             live: "https://ahellys.github.io/Booki/",
             source: "https://github.com/Ahellys/Booki.git",
-            image: mock2,
+            image: booki,
             details: "Le tout premier projet de la formation à réaliser. J'ai réalisé la page d'accueil d'un site statique de réservation de logement Ce projet m'a appris les bases du HTML, du CSS ainsi que la logique responsive. Durant ce projet, j'ai rencontré des difficultés avec l'utilisation du CSS. L'utilisation de la documentation m'a permis de progresser et surmonter cela."
         },
         {
             title: "Openclassrooms - KASA",
             live: "https://ahellys.github.io/kasa_oc/",
             source: "https://github.com/Ahellys/kasa_oc.git",
-            image: mock3,
+            image: kasa,
             details: "Ce projet demandait de réaliser un site statique reprennant le principe des AirB&B en React. J'ai eu l'occasion de me familiariser avec React natif, React Router et SASS. L'utilisation des composants a été assez intuitive car plus proche de la programation orientée objet que JS natif. SCSS a effectivement facilité le styling du site et la partie responsive. Je n'étais pas encore trop familier avec les variables, leur uilisation aurait rendu le code encore plus clair pour une meilleure maintenabilité"
         },
         {
             title: "Codegym - Games",
             live: "https://codegym.cc/projects/apps?query=yoann&order=NEW",
-            source: "https://codegym.cc/projects/apps?query=yoann&order=NEW",
-            image: mock5,
-            details: "Ces jeux sont des excercices antérieures à la formation. Ma décision de me reconvertir en développeur pour faire de l'applicatif remonte à 2020. J'avais commencé des cours de JAVA qui m'ont donnés les bases de la POO. C'est également comme cela que j'ai appris à utiliser une documentation et chercher des ressources sur internet."
+            source: "https://github.com/Ahellys/Racer.git",
+            image: java,
+            details: "Ces jeux sont des excercices antérieures à la formation. Ma décision de me reconvertir en développeur pour faire de l'applicatif remonte à 2020. J'avais commencé des cours de JAVA qui m'ont donnés les bases de la POO. C'est également comme cela que j'ai appris à utiliser une documentation et chercher des ressources sur internet. Le lien GitHub vous amènera vers le Racer, qui était le plus complexe. Mais vous pouvez également accéder au Snake, Minesweeper(démineur), (space)Invaders et Moonlander depuis mes repositories."
         }
     ]
 }
