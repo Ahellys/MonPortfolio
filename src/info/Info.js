@@ -1,8 +1,6 @@
 import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
@@ -32,8 +30,8 @@ export const info = {
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
-            emoji: '☕',
-            text: 'PLACEHOLDER'
+            emoji: '👨🏿‍🎓',
+            text: 'Titre professionnel de Développeur informatique'
         },
         {
             emoji: '🌎',
@@ -41,7 +39,7 @@ export const info = {
         },
         {
             emoji: "💼",
-            text: "En recherche de mon premier emploi de développeur"
+            text: "En recherche de mon premier emploi de développeur fullstack"
         },
         {
             emoji: "📧",
@@ -67,7 +65,8 @@ export const info = {
     skills:
         {
             proficientWith: ['javascript','nodejs', 'react', 'git', 'github', 'html5', 'css3'],
-            exposedTo: ['figma', 'bootstrap', 'java', 'JEE', 'SQL', 'PHP']
+            exposedTo: [ 'java', 'JEE', 'AGIL'],
+            learning: ['test unitaires','figma', 'bootstrap', 'JEE', 'python', 'svelte', 'SQL', '...']
         }
     ,
     hobbies: [
@@ -92,34 +91,25 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+            title: "Openclassrooms - Booki",
+            live: "https://ahellys.github.io/Booki/",
+            source: "https://github.com/Ahellys/Booki.git",
+            image: mock2,
+            details: "Le tout premier projet de la formation à réaliser. J'ai réalisé la page d'accueil d'un site statique de réservation de logement Ce projet m'a appris les bases du HTML, du CSS ainsi que la logique responsive. Durant ce projet, j'ai rencontré des difficultés avec l'utilisation du CSS. L'utilisation de la documentation m'a permis de progresser et surmonter cela."
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock2
+            title: "Openclassrooms - KASA",
+            live: "https://ahellys.github.io/kasa_oc/",
+            source: "https://github.com/Ahellys/kasa_oc.git",
+            image: mock3,
+            details: "Ce projet demandait de réaliser un site statique reprennant le principe des AirB&B en React. J'ai eu l'occasion de me familiariser avec React natif, React Router et SASS. L'utilisation des composants a été assez intuitive car plus proche de la programation orientée objet que JS natif. SCSS a effectivement facilité le styling du site et la partie responsive. Je n'étais pas encore trop familier avec les variables, leur uilisation aurait rendu le code encore plus clair pour une meilleure maintenabilité"
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3
-        },
-        {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
+            title: "Codegym - Games",
+            live: "https://codegym.cc/projects/apps?query=yoann&order=NEW",
+            source: "https://codegym.cc/projects/apps?query=yoann&order=NEW",
+            image: mock5,
+            details: "Ces jeux sont des excercices antérieures à la formation. Ma décision de me reconvertir en développeur pour faire de l'applicatif remonte à 2020. J'avais commencé des cours de JAVA qui m'ont donnés les bases de la POO. C'est également comme cela que j'ai appris à utiliser une documentation et chercher des ressources sur internet."
         }
     ]
 }

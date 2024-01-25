@@ -7,12 +7,12 @@ import {info} from "../info/Info";
 
 const links = [
     {
-        name: 'Home',
+        name: 'Accueil',
         to: '/',
-        active: 'home'
+        active: 'accueil'
     },
     {
-        name: 'About Me',
+        name: 'Qui suis-je ?',
         to: '/about',
         active: 'about'
     },
@@ -20,7 +20,7 @@ const links = [
         name: info.initials,
         type: 'initials',
         to: '/',
-        active: 'home'
+        active: 'accueil'
     },
     {
         name: 'Portfolio',
@@ -31,13 +31,13 @@ const links = [
 
 export default function Navbar({darkMode, handleClick}) {
     const location = useLocation()
-    const [active, setActive] = useState(location.pathname === '/' ? 'home' : location.pathname.slice(1, location.pathname.length));
+    const [active, setActive] = useState(location.pathname === '/' ? 'accueil' : location.pathname.slice(1, location.pathname.length));
 
     return (
         <Box component={'nav'} width={'100%'}>
             <Box component={'ul'} display={'flex'} justifyContent={'center'} alignItems={'center'}
                  gap={{xs: '2rem', md: '8rem'}}
-                 textTransform={'lowercase'} fontSize={'1rem'}>
+                 /* textTransform={'lowercase'} */ fontSize={'1rem'}>
                 {links.map((link, index) => (
                     <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}
                          sx={{borderImageSource: info.gradient}}>
