@@ -8,23 +8,23 @@ import {info} from "../info/Info";
 const links = [
     {
         name: 'Accueil',
-        to: '/',
+        to: '/MonPortfolio',
         active: 'accueil'
     },
     {
         name: 'Qui suis-je ?',
-        to: '/about',
+        to: 'MonPortfolio/about',
         active: 'about'
     },
     {
         name: info.initials,
         type: 'initials',
-        to: '/',
+        to: '/MonPortfolio',
         active: 'accueil'
     },
     {
         name: 'Portfolio',
-        to: '/portfolio',
+        to: 'MonPortfolio/projects',
         active: 'portfolio'
     }
 ]

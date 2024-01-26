@@ -36,9 +36,9 @@ export default function BaseLayout() {
             </Grid>
             <Grid item flexGrow={1}>
                <Routes>
-                  <Route exact path={'/'} element={<Home/>}/>
-                  <Route exact path={'/about'} element={<About/>}/>
-                  <Route exact path={'/portfolio'} element={<Portfolio/>}/>
+                  <Route exact path={'/MonPortfolio'} element={<Home/>}/>
+                  <Route exact path={'MonPortfolio/about'} element={<About/>}/>
+                  <Route exact path={'MonPortfolio/projects'} element={<Portfolio/>}/>
                </Routes>
             </Grid>
             <Grid item>
