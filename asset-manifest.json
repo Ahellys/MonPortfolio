@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a56d6a23.css",
+    "main.js": "/static/js/main.84c7d8cf.js",
+    "static/media/kasa_projet.png": "/static/media/kasa_projet.fb66fe6e04e0b1d4d392.png",
+    "static/media/booki_projet.png": "/static/media/booki_projet.fe989f337fe48989a0c8.png",
+    "static/media/java_projets.png": "/static/media/java_projets.a988c45505aa57539b78.png",
+    "static/media/self.png": "/static/media/self.5f1a11a38ed0fa25a32f.png",
+    "index.html": "/index.html",
+    "main.a56d6a23.css.map": "/static/css/main.a56d6a23.css.map",
+    "main.84c7d8cf.js.map": "/static/js/main.84c7d8cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a56d6a23.css",
+    "static/js/main.84c7d8cf.js"
+  ]
+}
