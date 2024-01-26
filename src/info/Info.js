@@ -3,32 +3,20 @@ import booki from "../img/booki_projet.png"
 import kasa from "../img/kasa_projet.png"
 import java from "../img/java_projets.png"
 
-/* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
-how to make this template work best for you! */
 
 export let colors = ["rgb(191, 7, 228)", "rgb(225, 255, 0)"];
-/*
-I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
-These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
-the site.
- */
 
 
-/*
-So let's get started! Some of the info below is pretty self-explanatory, like 'firstName' and 'bio'. I'll try to explain anything
-that might not be obvious right off the bat :) I recommend looking at the template example live using "npm start" to get an idea
-of what each of the values mean.
- */
 
 export const info = {
     firstName: "Yoann",
     lastName: "Silmon",
-    initials: "ys", // the example uses first and last, but feel free to use three or more if you like.
+    initials: "ys", 
     position: "développeur full stack junior",
-    selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
-    gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
+    selfPortrait: self, 
+    gradient: `-webkit-linear-gradient(135deg, ${colors})`,
     baseColor: colors[0],
-    miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
+    miniBio: [
         {
             emoji: '👨🏿‍🎓',
             text: 'Titre professionnel de Développeur informatique'
@@ -57,16 +45,14 @@ export const info = {
             icon: "fa fa-linkedin",
             label: 'linkedin'
         }
-// Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
-// Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Bonjour ! Je m'appelle Yoann. Fraîchement développeur web fullstack avec une appétance plus prononcée pour le back-end et l'applicatif. Je suis avide d'apprentissage et de progrès!",
+    bio: "Bonjour ! Je m'appelle Yoann. J'ai suivi la formation diplômante de développeur web et web mobile par Openclassrooms dans le but de devenir développeur web fullstack. J'ai une appétance plus prononcée pour le back-end et l'applicatif. Je suis avide d'apprentissage et de progrès!",
     skills:
         {
             proficientWith: ['javascript','nodejs', 'react', 'git', 'github', 'html5', 'css3'],
-            exposedTo: ['python', 'svelte' , 'AGIL', '...'],
-            learning: ['test unitaires','figma', 'bootstrap', 'Angular', 'Typescript', 'java', 'JEE', 'SQL']
+            exposedTo: ['python', 'svelte' , '...'],
+            learning: ['test unitaires','figma', 'bootstrap', 'Angular', 'Typescript', 'java', 'JEE', 'SQL','AGIL']
         }
     ,
     hobbies: [
@@ -86,10 +72,9 @@ export const info = {
             label: 'cuisine',
             emoji: '🌶'
         }
-// Same as above, change the emojis to match / relate to your hobbies or interests.
-// You can also remove the emojis if you'd like, I just think they look cute :P
+
     ],
-    portfolio: [ // This is where your portfolio projects will be detailed
+    portfolio: [ 
         {
             title: "Openclassrooms - Booki",
             live: "https://ahellys.github.io/Booki/",

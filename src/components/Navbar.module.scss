@@ -2,6 +2,16 @@
 
 nav {
   transition: $transition;
+  a span{
+    font-size:2rem;
+    font-weight:bold;
+    background-image:-webkit-linear-gradient(50deg, $purple, $yellow);
+    box-sizing: border-box;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-style:groove;
+    padding: 0 0.4rem 0.4rem;
+  }
 }
 
 .active {
